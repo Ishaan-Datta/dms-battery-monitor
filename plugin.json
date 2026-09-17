@@ -1,0 +1,30 @@
+{
+  "id": "dmsBluetoothBatteryMonitor",
+  "name": "Bluetooth Battery Monitor",
+  "description": "Monitor Bluetooth device batteries in DankBar and receive low-battery alerts",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Ishaan",
+  "icon": "headphones",
+  "type": "composite",
+  "capabilities": [
+    "daemon",
+    "dankbar-widget"
+  ],
+  "components": {
+    "daemon": "./BluetoothBatteryDaemon.qml",
+    "widget": "./BluetoothBatteryWidget.qml"
+  },
+  "settings": "./BluetoothBatterySettings.qml",
+  "startupCheck": "./StartupCheck.qml",
+  "dependencies": [
+    "bluetoothctl",
+    "notify-send"
+  ],
+  "permissions": [
+    "settings_read",
+    "settings_write",
+    "process"
+  ],
+  "requires_dms": ">=1.6.0"
+}

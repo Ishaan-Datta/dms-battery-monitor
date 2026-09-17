@@ -1,0 +1,13 @@
+{
+  "dmsBluetoothBatteryMonitor": {
+    "pollIntervalMinutes": 5,
+    "devices": [
+      {
+        "mac": "98:47:44:96:87:77",
+        "warningThreshold": 30,
+        "criticalThreshold": 15,
+        "reminderCooldownMinutes": 60
+      }
+    ]
+  }
+}
