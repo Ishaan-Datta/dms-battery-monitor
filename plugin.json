@@ -3,7 +3,7 @@
   "name": "Bluetooth Battery Monitor",
   "description": "Monitor Bluetooth device batteries in DankBar and receive low-battery alerts",
   "version": "1.0.0",
-  "license": "MIT",
+  "license": "GPL-2.0-only",
   "author": "Ishaan",
   "icon": "headphones",
   "type": "composite",
